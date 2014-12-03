@@ -1,0 +1,154 @@
+body{
+
+}
+header{
+  background: #66ccff;
+}
+header h4{
+  color: #fff;  
+  font-size: 24px;
+  float: left;
+}
+header h4 strong{
+  font-size: 26px;
+}
+header .contact-us{
+  width: 214px;
+  height: 39px;
+  float: right;
+  background-image: url('images/phone.png');
+  background-size: 32px 29px;
+  background-repeat: no-repeat;
+  background-position:1px 6px;
+  margin: 5px 0 0;
+
+}
+header .contact-us .questions{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+header span{
+  margin-left: 41px;
+}
+header .contact-us .link{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+
+}
+
+.main-search{
+  height: 100px;
+  background: #eee;
+
+}
+.menu{
+    background: #003bb3;    
+    padding-top: 2px;
+    padding-bottom: -10px;
+    height: 40px;
+}
+#main-container{
+    
+    background-color: #fff;
+}
+.box{
+    min-height: 200px; 
+    background-color: #fff;
+    border: 1px solid #a1a1a1;
+   
+}
+.box:hover{
+-webkit-box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.36);
+-moz-box-shadow:    0px 0px 9px 0px rgba(50, 50, 50, 0.36);
+box-shadow:         0px 0px 9px 0px rgba(50, 50, 50, 0.36);
+    
+body{
+
+}
+header{
+  background: #66ccff;
+}
+header h4{
+  color: #fff;  
+  font-size: 24px;
+  float: left;
+}
+header h4 strong{
+  font-size: 26px;
+}
+header .contact-us{
+  width: 214px;
+  height: 39px;
+  float: right;
+  background-image: url('images/phone.png');
+  background-size: 32px 29px;
+  background-repeat: no-repeat;
+  background-position:1px 6px;
+  margin: 5px 0 0;
+
+}
+header .contact-us .questions{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+header span{
+  margin-left: 41px;
+}
+header .contact-us .link{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+
+}
+
+.main-search{
+  height: 100px;
+  background: #eee;
+
+}
+.menu{
+    background: #003bb3;    
+    padding-top: 2px;
+    padding-bottom: -10px;
+    height: 40px;
+}
+#main-container{
+    
+    background-color: #fff;
+}
+.box{
+    min-height: 200px; 
+    background-color: #fff;
+    border: 1px solid #a1a1a1;
+   
+}
+.box:hover{
+-webkit-box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.36);
+-moz-box-shadow:    0px 0px 9px 0px rgba(50, 50, 50, 0.36);
+box-shadow:         0px 0px 9px 0px rgba(50, 50, 50, 0.36);
+    
+}
+
+footer {
+  background: none repeat scroll 0 0 #eee;
+  border-top: 3px solid #29AFD6;
+  float: left;
+  font-size: 12px;
+  height: auto;
+  margin: 0;
+  padding: 20px 0 10px;
+  width: 100%;
+}
+
+
+
+.bottom-nav{
+  text-align:center;
+  padding: 10px 0;
+}
+.footer-logo img{
+  width: 100%;
+}

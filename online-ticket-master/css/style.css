@@ -1,0 +1,109 @@
+body{
+
+}
+header{
+  background: #29AFD6;
+}
+header h4{
+  color: #fff;  
+  font-size: 24px;
+  float: left;
+}
+header h4 strong{
+  font-size: 26px;
+}
+header .contact-us{
+  width: 214px;
+  height: 39px;
+  float: right;
+  background-image: url('images/phone.png');
+  background-size: 32px 29px;
+  background-repeat: no-repeat;
+  background-position:1px 6px;
+  margin: 5px 0 0;
+
+}
+header .contact-us .questions{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+header span{
+  margin-left: 41px;
+}
+header .contact-us .link{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+
+}
+.search-main{  
+  padding: 27px 0;
+}
+.search-main h2{
+  text-shadow:1px 1px 1px #eee;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #eee;
+}
+.search-container{
+  padding: 8px 20px 25px 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.sp-search-sec {
+  border: 2px solid #29afd6;
+  height: 200px;
+  margin: 16px 5px;
+  position: relative;
+}
+.sp-search-sec img{
+  width: 100%;
+  height: 100%;
+
+}
+.sp-search-sec span{   
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  background-color:rgba(17,16,16,0.5);
+ 
+}
+.sp-search-sec span div{   
+  width: 79%; 
+  float: left;
+}
+.sp-search-sec span h3 {
+  margin: 4px 0;
+  padding: 0 18px;
+}
+.sp-search-sec span p {
+  font-size: 87%;
+  padding: 0 18px;
+}
+.sp-search-sec span button {
+    margin: 28px 0 5px 8px;
+    padding: 2px 8px;
+}
+
+
+footer {
+  background: none repeat scroll 0 0 #eee;
+  border-top: 3px solid #29AFD6;
+  float: left;
+  font-size: 12px;
+  height: auto;
+  margin: 0;
+  padding: 20px 0 10px;
+  width: 100%;
+}
+
+
+
+.bottom-nav{
+  text-align:center;
+  padding: 10px 0;
+}
+.footer-logo img{
+  width: 100%;
+}

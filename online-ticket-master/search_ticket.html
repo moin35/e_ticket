@@ -1,0 +1,452 @@
+<!doctype html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Amar Ticket</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css">
+    <!-- end CSS-->
+
+   
+    <script src="js/bootstrap.js" type="text/javascript"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>    
+
+
+
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="js/star-rating.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h4><strong>a</strong>marticket.com</h4>
+            <a href="#">
+                <div class="contact-us">
+                    <span class="questions">Questions? Call us Now!</span>
+                    <span class="link">Contact us</span>                
+                </div>
+            </a>
+        </div>
+
+    </header>
+    <div class="menu">
+        <div class="row-fluid">
+            <nav class="span12">
+                <ul class="breadcrumb"> 
+                    <li>
+                        <a href="index.html">Home </a><span class="divider icon-forward"></span>
+                    </li>
+                    <li>
+                        <a href="#">Dhaka </a><span class="divider icon-forward"></span>
+                    </li>
+                    <li>
+                        <span class="active">Chittgong</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="main-container">
+
+    </div>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+                <h1>Search Result</h1>
+            </div>
+            <div class="span2">
+                <form role="form">
+                    <h4>Time</h4>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Option 1</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Option 2</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Option 3</label>
+                    </div>
+                </form>
+            </div>
+            <div class="span9">
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <span class="divider ">Sort By : </span>
+                        <a href="#">Max. Price </a><span class="divider "> | </span>
+                        <a href="#">Category </a><span class="divider "> | </span>
+                        <a href="#">Min. Price </a><span class="divider ">  </span>
+                    </div>
+                    <div class="span6">
+         <div class="input-group" >
+                                    <input type="text" class="form-control" placeholder="Search" id="query" name="query" value="" style="min-height: 33.5px;">
+                                        <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table"> 
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                        </table>
+                        <div class="box" style="">
+                            <div class="table" style="min-height: 60px; background-color: #cccccc;">
+                                <div class="span7" style="padding-left: 10px;"><h4>Hanif Express<p>Non-Ac</p></h4></div>
+                                <div class="span5">
+
+                                    <form>
+    <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
+   
+</form>
+<br>
+<script>
+    jQuery(document).ready(function () {
+        $("#input-21f").rating({
+            starCaptions: function(val) {
+                if (val < 3) {
+                    return val;
+                } else {
+                    return 'high';
+                }
+            },
+            starCaptionClasses: function(val) {
+                if (val < 3) {
+                    return 'label label-danger';
+                } else {
+                    return 'label label-success';
+                }
+            },
+            hoverOnClear: false
+        });
+        
+        $('#rating-input').rating({
+              min: 0,
+              max: 5,
+              step: 1,
+              size: 'lg'
+           });
+           
+        $('#btn-rating-input').on('click', function() {
+            var $a = self.$element.closest('.star-rating');
+            var chk = !$a.hasClass('rating-disabled');
+            $('#rating-input').rating('refresh', {showClear:!chk, disabled:chk});
+        });
+        
+        $('#rating-input').on('rating.change', function() {
+            alert($('#rating-input').val());
+        });
+    });
+</script>
+
+
+                                </div>
+                            </div>
+                            <div class="span2"><img src="img/Hydrangeas.jpg" class="img-thumbnail"></div>
+                            <div class="span6">
+                                <a href="#">Dhaka to Chittagong </a>
+                                <p>
+                                    Dep. Time : 7.00 AM <br/>
+                                    Ass. Time:
+                                    3.00 PM <br/>
+                                    Avilable Seats : 35 <br/>
+                                    Ticket Price : 400 Tk
+                                </p>
+                            </div>
+                            <div class="span3" align="center" style="padding-left: 80px; padding-top: 30px;"> 
+                                <button type="button" class="btn btn-primary btn-lg active">
+                                    View Seats
+                                </button></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table"> 
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                        </table>
+                        <div class="box" style="">
+                            <div class="table" style="min-height: 60px; background-color: #cccccc;">
+                                <div class="span7" style="padding-left: 10px;"><h4>Hanif Express<p>Non-Ac</p></h4></div>
+                                <div class="span5">
+
+                                    <form>
+                                        <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
+
+                                    </form>
+                                    <br>
+                                    <script>
+                                        jQuery(document).ready(function() {
+                                            $("#input-21f").rating({
+                                                starCaptions: function(val) {
+                                                    if (val < 3) {
+                                                        return val;
+                                                    } else {
+                                                        return 'high';
+                                                    }
+                                                },
+                                                starCaptionClasses: function(val) {
+                                                    if (val < 3) {
+                                                        return 'label label-danger';
+                                                    } else {
+                                                        return 'label label-success';
+                                                    }
+                                                },
+                                                hoverOnClear: false
+                                            });
+
+                                            $('#rating-input').rating({
+                                                min: 0,
+                                                max: 5,
+                                                step: 1,
+                                                size: 'lg'
+                                            });
+
+                                            $('#btn-rating-input').on('click', function() {
+                                                var $a = self.$element.closest('.star-rating');
+                                                var chk = !$a.hasClass('rating-disabled');
+                                                $('#rating-input').rating('refresh', {showClear: !chk, disabled: chk});
+                                            });
+
+                                            $('#rating-input').on('rating.change', function() {
+                                                alert($('#rating-input').val());
+                                            });
+                                        });
+                                    </script>
+
+
+                                </div>
+                            </div>
+                            <div class="span2"><img src="img/Hydrangeas.jpg" class="img-thumbnail"></div>
+                            <div class="span6">
+                                <a href="#">Dhaka to Chittagong </a>
+                                <p>
+                                    Dep. Time : 7.00 AM <br/>
+                                    Ass. Time:
+                                    3.00 PM <br/>
+                                    Avilable Seats : 35 <br/>
+                                    Ticket Price : 400 Tk
+                                </p>
+                            </div>
+                            <div class="span3" align="center" style="padding-left: 80px; padding-top: 30px;"> 
+                                <button type="button" class="btn btn-primary btn-lg active">
+                                    View Seats
+                                </button></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                     <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table"> 
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                        </table>
+                        <div class="box" style="">
+                            <div class="table" style="min-height: 60px; background-color: #cccccc;">
+                                <div class="span7" style="padding-left: 10px;"><h4>Hanif Express<p>Non-Ac</p></h4></div>
+                                <div class="span5">
+
+                                    <form>
+                                        <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
+
+                                    </form>
+                                    <br>
+                                    <script>
+                                        jQuery(document).ready(function() {
+                                            $("#input-21f").rating({
+                                                starCaptions: function(val) {
+                                                    if (val < 3) {
+                                                        return val;
+                                                    } else {
+                                                        return 'high';
+                                                    }
+                                                },
+                                                starCaptionClasses: function(val) {
+                                                    if (val < 3) {
+                                                        return 'label label-danger';
+                                                    } else {
+                                                        return 'label label-success';
+                                                    }
+                                                },
+                                                hoverOnClear: false
+                                            });
+
+                                            $('#rating-input').rating({
+                                                min: 0,
+                                                max: 5,
+                                                step: 1,
+                                                size: 'lg'
+                                            });
+
+                                            $('#btn-rating-input').on('click', function() {
+                                                var $a = self.$element.closest('.star-rating');
+                                                var chk = !$a.hasClass('rating-disabled');
+                                                $('#rating-input').rating('refresh', {showClear: !chk, disabled: chk});
+                                            });
+
+                                            $('#rating-input').on('rating.change', function() {
+                                                alert($('#rating-input').val());
+                                            });
+                                        });
+                                    </script>
+
+
+                                </div>
+                            </div>
+                            <div class="span2"><img src="img/Hydrangeas.jpg" class="img-thumbnail"></div>
+                            <div class="span6">
+                                <a href="#">Dhaka to Chittagong </a>
+                                <p>
+                                    Dep. Time : 7.00 AM <br/>
+                                    Ass. Time:
+                                    3.00 PM <br/>
+                                    Avilable Seats : 35 <br/>
+                                    Ticket Price : 400 Tk
+                                </p>
+                            </div>
+                            <div class="span3" align="center" style="padding-left: 80px; padding-top: 30px;"> 
+                                <button type="button" class="btn btn-primary btn-lg active">
+                                    View Seats
+                                </button></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                 <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table"> 
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                        </table>
+                        <div class="box" style="">
+                            <div class="table" style="min-height: 60px; background-color: #cccccc;">
+                                <div class="span7" style="padding-left: 10px;"><h4>Hanif Express<p>Non-Ac</p></h4></div>
+                                <div class="span5">
+
+                                    <form>
+                                        <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
+
+                                    </form>
+                                    <br>
+                                    <script>
+                                        jQuery(document).ready(function() {
+                                            $("#input-21f").rating({
+                                                starCaptions: function(val) {
+                                                    if (val < 3) {
+                                                        return val;
+                                                    } else {
+                                                        return 'high';
+                                                    }
+                                                },
+                                                starCaptionClasses: function(val) {
+                                                    if (val < 3) {
+                                                        return 'label label-danger';
+                                                    } else {
+                                                        return 'label label-success';
+                                                    }
+                                                },
+                                                hoverOnClear: false
+                                            });
+
+                                            $('#rating-input').rating({
+                                                min: 0,
+                                                max: 5,
+                                                step: 1,
+                                                size: 'lg'
+                                            });
+
+                                            $('#btn-rating-input').on('click', function() {
+                                                var $a = self.$element.closest('.star-rating');
+                                                var chk = !$a.hasClass('rating-disabled');
+                                                $('#rating-input').rating('refresh', {showClear: !chk, disabled: chk});
+                                            });
+
+                                            $('#rating-input').on('rating.change', function() {
+                                                alert($('#rating-input').val());
+                                            });
+                                        });
+                                    </script>
+
+
+                                </div>
+                            </div>
+                            <div class="span2"><img src="img/Hydrangeas.jpg" class="img-thumbnail"></div>
+                            <div class="span6">
+                                <a href="#">Dhaka to Chittagong </a>
+                                <p>
+                                    Dep. Time : 7.00 AM <br/>
+                                    Ass. Time:
+                                    3.00 PM <br/>
+                                    Avilable Seats : 35 <br/>
+                                    Ticket Price : 400 Tk
+                                </p>
+                            </div>
+                            <div class="span3" align="center" style="padding-left: 80px; padding-top: 30px;"> 
+                                <button type="button" class="btn btn-primary btn-lg active">
+                                    View Seats
+                                </button></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+ 
+
+
+            </div>
+        </div>
+                   <br>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<footer>
+      <div class="container">
+          <ul class="bottom-nav list-inline">
+                  <li><a href="/about-us">About us</a></li>
+                  <li><a href="/faq">FAQs</a></li>
+                  <li><a href="/terms-of-use">TERMS OF USE</a></li>
+                  <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
+                  <li><a href="/contact-us">CONTACT US</a></li>
+          </ul>
+          <div class="footer-logo col-md-12">
+              <img src="images/spn_logo.png">
+          </div>
+      </div>
+   </footer>
+
+    </div>
+</body>
+</html>
